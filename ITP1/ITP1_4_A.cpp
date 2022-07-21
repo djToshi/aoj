@@ -3,9 +3,8 @@ using namespace std;
 int main()
 {
     int a, b;
-    long c = a / b;
-
     cin >> a >> b;
+    double d = (double)a / b;
 
-    cout << a / b << " " << a % b << " " << c << endl;
+    printf("%d %d %f\n", a / b, a % b, d);
 }
